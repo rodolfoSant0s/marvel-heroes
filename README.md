@@ -1,6 +1,6 @@
 ## Avaliação Marvel Heroes
 
-Este projeto tem como intuito listar 3 heróis favoritos e 5 historias deles.
+Buscar na [API da Marvel](https://developer.marvel.com/docs) os seus 3 heróis favoritos e a partir deles listar 5 histórias nas quais eles apareçam.
 
 Este projeto foi construido utilizando duas frameworks
 - Back end - Laravel
