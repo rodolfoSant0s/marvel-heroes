@@ -2,6 +2,8 @@
 
 Buscar na [API da Marvel](https://developer.marvel.com/docs) os seus 3 heróis favoritos e a partir deles listar 5 histórias nas quais eles apareçam.
 
+Uma demonstração da aplicação está disponível em [Marvel Heroes](http://marvelheroes.ddns.net/)
+
 Este projeto foi construido utilizando duas frameworks
 - Back end - Laravel
 - Front end - Vue Js
