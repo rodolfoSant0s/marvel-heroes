@@ -47,7 +47,9 @@ export default {
   },
   mounted() {
     utils.heroes_selected.forEach((hero, index) => {
-      axios.get(utils.base_url+'getHeroById/'+hero)
+      axios.get(utils.base_url+'getHeroById/'+hero, {
+        headers: {},
+      })
         .then((response) =>  {
           this.heroes[index] = response.data
           this.heroes[index].loading = true
