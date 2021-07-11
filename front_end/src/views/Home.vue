@@ -86,7 +86,7 @@ export default {
 
       let infoAlert = this.$swal.fire({
           icon: 'info',
-          title: 'Aguarde...',
+          title: 'Find hero...',
           toast: true,
           showConfirmButton: false,
           position: 'top-center',
@@ -113,7 +113,7 @@ export default {
           console.log(error)
           return this.$swal.fire({
                   icon: 'error',
-                  title: 'Não foi possível encontrar o Héroi',
+                  title: 'Unable to find the hero',
                   toast: false,
                   showConfirmButton: true,
                   position: 'top-center',
