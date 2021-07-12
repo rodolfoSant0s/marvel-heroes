@@ -31,7 +31,7 @@ export default {
     .card {
         cursor: pointer;
         position: relative;
-        width: 400px;
+        width: 380px;
         height: 550px;
         background: #887685;
         border-radius: 10px;
