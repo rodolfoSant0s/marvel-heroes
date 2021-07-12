@@ -31,7 +31,7 @@ export default {
     .card {
         cursor: pointer;
         position: relative;
-        width: 380px;
+        width: 400px;
         height: 550px;
         background: #887685;
         border-radius: 10px;
@@ -74,7 +74,7 @@ export default {
     
 
     /* Customizando layout responsivo */
-    @media screen and (max-width: 1120px) {
+    @media screen and (max-width: 1250px) {
         .card {
             margin-bottom: 40px;
             width: 100%;

@@ -175,7 +175,7 @@ export default {
     }
 
     /* Customizando layout responsivo */
-    @media screen and (max-width: 1120px) {
+    @media screen and (max-width: 1250px) {
         .list {
             display: block;
             margin: 0 15px
