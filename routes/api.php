@@ -22,7 +22,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::prefix('v1')->group( function() {
-    Route::get('getHeroes', [HeroesController::class, 'index']);
     Route::get('getHeroById/{id}', [HeroesController::class, 'getHeroById']);
     Route::post('getHeroByName', [HeroesController::class, 'getHeroByName']);
     Route::get('getStoriesByHeroId/{id}', [HeroesController::class, 'getStoriesByHeroId']);

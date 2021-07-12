@@ -21,30 +21,6 @@ class HeroesController extends Controller
         $this->params = '?apikey='.env('MARVEL_PUBLIC_KEY').'&hash='.$this->hash.'&ts='.$this->ts;
     }
 
-    public function index() 
-    {
-        $heroesId = [1009368, 1009664, 1009351]; // ID selecionado dos meus herois
-        $heroesData = collect();
-    
-        foreach($heroesId as $key => $heroId) {
-            $response = Http::get(env('MARVEL_END_POINT').'characters/'.$heroId.$this->params);
-            
-            if($response->status() === 200) {
-                $data = collect($response->json());
-                $heroesData = $heroesData->push([
-                    'id' => $data['data']['results'][0]['id'],
-                    'name'=> $data['data']['results'][0]['name'],
-                    'description'=> $data['data']['results'][0]['description'],
-                    'thumb'=> $data['data']['results'][0]['thumbnail']['path'].'/detail.'.$data['data']['results'][0]['thumbnail']['extension'], 
-                ]);
-            }
-        }
-
-        return $heroesData->all();
-
-    }
-
-
     public function getHeroById($heroId) 
     {
         $heroData = collect();
