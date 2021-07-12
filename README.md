@@ -40,7 +40,7 @@ MARVEL_END_POINT=https://gateway.marvel.com/v1/public/
 - `npm run serve`
 
 
-## Testes unitários Api
+## Testes Funcionalidades Api
 
 Para realização de testes dos métodos da api para executar `vendor/bin/phpunit` ou `php artisan test`
 
