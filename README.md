@@ -46,6 +46,18 @@ Para realização de testes dos métodos da api para executar `vendor/bin/phpuni
 
 O arquivo `MarvelApiTest.php` possui todos os metodos necessários para execução de testes.
 
+Abaixo resultado de teste com sucesso.
+
+```
+   PASS  Tests\Feature\MarvelApiTest
+  ✓ hero by id
+  ✓ hero by name
+  ✓ hero stories by id
+
+  Tests:  3 passed
+  Time:   1.01s
+```
+
 ## Licensa
 
 [MIT license](https://opensource.org/licenses/MIT).
