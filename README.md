@@ -44,7 +44,7 @@ MARVEL_END_POINT=https://gateway.marvel.com/v1/public/
 
 Para realização de testes dos métodos da api para executar `vendor/bin/phpunit` ou `php artisan test`
 
-O arquivo  `MarvelApiTest.php` possui todos os metodos necessários para execução de testes.
+O arquivo `MarvelApiTest.php` possui todos os metodos necessários para execução de testes.
 
 ## Licensa
 

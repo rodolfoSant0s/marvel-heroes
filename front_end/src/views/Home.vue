@@ -86,7 +86,7 @@ export default {
 
       let infoAlert = this.$swal.fire({
           icon: 'info',
-          title: 'Find hero...',
+          title: 'Find character...',
           toast: true,
           showConfirmButton: false,
           position: 'top-center',
